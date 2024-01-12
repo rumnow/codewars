@@ -11,4 +11,6 @@ func main() {
 	fmt.Println(NoSpace("Tr Tr"))
 	fmt.Println(DNAStrand("GTAT"))
 	fmt.Println(ToAlternatingCase("hello WORLD 1a2b3c4d5e"))
+
+	fmt.Println(GetSum(-5, -5))
 }
