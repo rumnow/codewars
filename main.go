@@ -5,6 +5,8 @@ import (
 )
 
 func main() {
+	fmt.Println(minimumPushes2("xyzxyzxyzxyz"))
+	fmt.Println(minimumPushes("xycdefghij"))
 	fmt.Println(Solution("qwerty"))
 	fmt.Println(PositiveSum([]int{1, -4, 7, 12}))
 	fmt.Println(RepeatStr(3, "Tr"))
