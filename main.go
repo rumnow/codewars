@@ -5,6 +5,7 @@ import (
 )
 
 func main() {
+	fmt.Println(findLongestChain([][]int{{4,3},{1,2},{5,6},{7,8}}))
 	fmt.Println(minimumPushes2("xyzxyzxyzxyz"))
 	fmt.Println(minimumPushes("xycdefghij"))
 	fmt.Println(Solution("qwerty"))
