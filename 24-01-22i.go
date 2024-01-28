@@ -15,12 +15,12 @@ func findLongestChain(pairs [][]int) int {
 	for _, v := range pairs {
 		nodes = append(nodes, node{&v, nil, nil, nil})
 	}
-	for _, input := range pairs {
-		for _, n := range nodes {
-			if input[0] == *n.left[] + 1 {
+	// for _, input := range pairs {
+	// 	for _, n := range nodes {
+	// 		if input[0] == *n.left[] + 1 {
 
-			}
-		}
-	}
+	// 		}
+	// 	}
+	// }
 	return 0
 }
