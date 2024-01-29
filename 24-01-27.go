@@ -7,11 +7,15 @@ func maxFrequencyElements(nums []int) (res int) {
 	for _, v := range nums {
 		freq[v] += 1
 	}
-	maxV, maxK := 0, 0
-	for k, v := range freq {
-		if v >= maxV && k >= maxK {
-			maxK, maxV = k, v
-			res = k * v
+	maxV := 0
+	for _, v := range freq {
+		if v >= maxV {
+			maxV = v
+		}
+	}
+	for _, v := range freq {
+		if v == maxV {
+			res += v
 		}
 	}
 	return
